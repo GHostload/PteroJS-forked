@@ -2,6 +2,12 @@
 
 Tracking changes for PteroJS and extensions from v2 onwards (using [SemVer 2](http://semver.org/)).
 
+## [2.2.3] - 07-10-2024
+
+### Fixed
+
+- Minor Changes to the README.md
+
 ## [2.2.0] - 08-02-2023
 
 ### Added

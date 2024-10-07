@@ -1,4 +1,4 @@
-const { PteroApp } = require('@devnote-dev/pterojs');
+const { PteroApp } = require('@ghostload/pterojs-forked');
 
 const app = new PteroApp(
     'https://pterodactyl.test',

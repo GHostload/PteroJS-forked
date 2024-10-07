@@ -14,13 +14,13 @@ PteroJS is a verbose API library for the [Pterodactyl Game Panel](https://pterod
 If you are using Node.js (v14.x and above):
 
 ```
-npm install @devnote-dev/pterojs
-yarn add @devnote-dev/pterojs
+npm install @ghostload/pterojs-forked
+yarn add @ghostload/pterojs-forked
 ```
 
 or if you are using Deno:
 ```js
-import pterojs from 'https://cdn.skypack.dev/@devnote-dev/pterojs';
+import pterojs from 'https://cdn.skypack.dev/@ghostload/pterojs-forked';
 ```
 
 Please join the [support server](https://discord.com/invite/dwcfTjgn7S) if you experience any issues with installing the package.
@@ -41,10 +41,10 @@ Note that you can use older versions of PteroJS with newer versions of Pterodact
 
 PteroJS uses separate classes for the client and application sides of the Pterodactyl API.
 
-### Using the application API
+### Using the application API [Examples](./examples/)
 
 ```js
-const { PteroApp } = require('@devnote-dev/pterojs');
+const { PteroApp } = require('@ghostload/pterojs-forked');
 
 // Initialising the application
 const app = new PteroApp('your.domain.name', 'pterodactyl_api_key');
@@ -56,7 +56,7 @@ app.servers.fetch(4).then(console.log);
 ### Using the client API
 
 ```js
-const { PteroClient } = require('@devnote-dev/pterojs');
+const { PteroClient } = require('@ghostload/pterojs-forked');
 
 // Initialising the client
 const client = new PteroClient('your.domain.name', 'pterodactyl_api_key');
@@ -91,6 +91,7 @@ Please see the [issues](https://github.com/PteroPackages/PteroJS/issues) section
 - [Devonte](https://github.com/devnote-dev) - Owner, maintainer
 - [Chelog](https://github.com/chelog) - Code contributor
 - [Cain](https://github.com/cainthebest) - Code contributor
+- [GHostload](https://github.com/GHostload) - Contributor of minor changes
 
 This repository is managed under the MIT license.
 
